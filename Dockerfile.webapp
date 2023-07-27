@@ -1,0 +1,11 @@
+# Use a Node.js base image from Docker Hub
+FROM node:latest
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Expose the port on which your web app listens (assuming it's 3000)
+EXPOSE 3000
+
+# Start the web app when the container runs
+CMD ["npm", "start"]
