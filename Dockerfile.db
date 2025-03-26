@@ -1,5 +1,5 @@
 # Arguments
-ARG BASE_VERSION=latest
+ARG BASE_VERSION=22.03
 ARG PY_VERSION=3.8
 
 # Stage 1: Install CANN
